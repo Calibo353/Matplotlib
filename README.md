@@ -2,121 +2,168 @@
 
 ## About This Repository
 
-This repository contains the practical work I completed during my KLU / Calibo training sessions using Python in Visual Studio Code and Jupyter Notebook.
+This repository contains the tasks, assignments, and practical exercises I completed during my **KLU / Calibo training sessions**.
 
-I practiced the complete data-analysis workflow:
+The main objective of this repository is to document my learning and practical implementation of **Data Analysis, Data Cleaning, Exploratory Data Analysis (EDA), and Data Visualization** using Python.
 
-**Raw Data -> Data Inspection -> Data Cleaning -> Analysis -> Visualization -> Interpretation**
+Throughout these exercises, I focused on understanding the data, analyzing patterns, creating meaningful visualizations, and deriving useful insights from different datasets.
 
-## What I Learned
-
-- Loading CSV files and inspecting rows, columns, data types, and dataset structure.
-- Using AI assistance in Visual Studio Code to explore ideas, improve code, and support data-analysis tasks.
-- Using **NumPy** for numerical operations and data preparation.
-- Using **Pandas** to filter, group, summarize, and analyze data.
-- Finding unique values and identifying values that differ only by letter case.
-- Detecting missing values, duplicate records, inconsistent categories, and data-quality issues.
-- Choosing suitable charts to explain patterns and relationships in data.
-- Interpreting visualizations and communicating observations from datasets.
-- Running notebooks and Python scripts in Visual Studio Code.
-- Saving analysis results and generated visualizations for reuse.
+---
 
 ## Topics Covered
 
-### AI Assistance
+### 1. Data Analysis with Pandas
 
-I used AI assistance in Visual Studio Code as a learning and development partner while working with NumPy, Pandas, Matplotlib, and Seaborn. I used it to:
+- Loading and reading datasets
+- Understanding dataset structure
+- Checking rows and columns
+- Identifying data types
+- Generating statistical summaries
+- Working with numerical and categorical data
+- Finding unique values
+- Filtering and analyzing data
+- Basic data exploration
 
-- Understand programming and data-analysis concepts.
-- Generate, explain, and improve Python code.
-- Explore datasets and identify data-quality issues.
-- Create graphs, dashboards, and data visualizations.
-- Interpret results and document observations.
+### 2. Data Cleaning
 
-I still ran, checked, and understood the code myself while using AI assistance.
+- Identifying and handling missing values
+- Detecting duplicate records
+- Identifying inconsistent values
+- Converting data types
+- Removing or correcting invalid data
+- Performing basic data-quality checks
 
-### Pandas and NumPy
+### 3. Data Visualization with Matplotlib
 
-- Dataset loading and inspection
-- Numerical and categorical data analysis
-- Filtering and grouping
-- Statistical summaries
-- Unique-value analysis
-- Missing-value checks
-- Duplicate detection
-- Data validation and cleaning
-
-### Matplotlib
-
-- Line plots
+- Line charts
 - Bar charts
-- Pie charts
 - Histograms
 - Scatter plots
 - Box plots
-- Multi-chart dashboards
-- Titles, labels, legends, grids, colors, and annotations
+- Comparing variables using visualizations
+- Adding titles, labels, legends, colors, and annotations
+- Building multi-chart dashboards
 
-### Seaborn
+### 4. Data Visualization with Seaborn
 
-- Distribution plots
 - Count plots
-- Bar plots
+- Distribution plots
 - Box plots
 - Violin plots
-- Scatter plots
 - Pair plots
 - Correlation heatmaps
-- Categorical comparisons
+- Categorical data visualization
+- Comparing relationships between variables
 
-## Practical Work Completed
+### 5. Exploratory Data Analysis (EDA)
 
-- Created student-performance charts using marks, attendance, departments, and scores.
-- Built a student-performance dashboard with multiple visualizations.
-- Compared student marks and studied the relationship between marks and attendance.
-- Analyzed e-commerce data and created visual summaries.
-- Cleaned a messy e-commerce dataset by checking missing values, standardizing data, and reviewing duplicate records.
-- Saved the cleaned data as `cleaned_ecommerce_dataset.csv` without modifying the original dataset.
-- Practiced house-price analysis and other exploratory data-analysis exercises.
+- Understanding data patterns
+- Comparing different categories
+- Analyzing relationships between variables
+- Identifying possible outliers
+- Studying distributions
+- Using visualizations to support analysis
+- Extracting meaningful insights from datasets
+
+### 6. AI Assistance in Visual Studio Code
+
+I also built and used an AI-assisted data-analysis workflow in Visual Studio Code. I used AI assistance to:
+
+- Understand Python, NumPy, Pandas, Matplotlib, and Seaborn concepts
+- Generate, explain, and improve analysis code
+- Explore datasets and identify data-quality issues
+- Create graphs, dashboards, and visual explanations
+- Interpret results and document observations
+
+I ran, checked, and understood the code myself while using AI as a learning and development assistant.
+
+---
+
+## Practical Tasks Included
+
+This repository contains practical exercises and assignments based on different datasets, including:
+
+- **House Price Analysis**
+- **E-Commerce Data Analysis and Visualization**
+- **COVID-19 Data Analysis**
+- **E-Commerce Sales Analysis**
+- **Data Cleaning and Data Quality Analysis**
+- Other data-analysis and visualization practice exercises completed during training
+
+Each notebook includes the **Python code, outputs, visualizations, analysis, and observations** related to the respective task.
+
+---
+
+## My Learning
+
+Through these practical exercises, I learned that **data analysis is more than just writing code**.
+
+The overall process I followed was:
+
+**Raw Data -> Data Inspection -> Data Cleaning -> Analysis -> Visualization -> Interpretation -> Insights**
+
+I learned how to select appropriate visualization techniques based on the type of information I want to understand:
+
+- **Histogram** -> Understand the distribution of numerical data
+- **Bar Chart** -> Compare categories
+- **Scatter Plot** -> Study relationships between two variables
+- **Box Plot** -> Understand data spread and identify possible outliers
+- **Heatmap** -> Analyze correlations between numerical variables
+
+Working with different datasets also helped me understand the importance of **data quality and proper data preparation before analysis**.
+
+---
 
 ## Main Files
 
-- `ai assistance.ipynb` - Main notebook containing the analysis, visualizations, outputs, and observations.
+- `ai assistance.ipynb` - Main notebook containing AI-assisted analysis, visualizations, outputs, and observations.
 - `coding.py` - Python script that generates student-performance charts.
 - `student_data.csv` - Student dataset used by the plotting script.
 - `cleaned_ecommerce_dataset.csv` - Cleaned e-commerce dataset.
 - `plot_*.png` - Generated chart images.
 
+---
+
 ## Tools and Technologies
 
-- Python
-- AI Assistance in Visual Studio Code
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- Visual Studio Code
-- Git and GitHub
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook**
+- **Visual Studio Code**
+- **Git**
+- **GitHub**
 
-## Setup
-
-Install the required Python packages:
+Install the main Python packages with:
 
 ```bash
 pip install numpy pandas matplotlib seaborn
 ```
 
-## Run the Project
+---
 
-Run the plotting script from the repository directory:
+## Key Skills Practiced
 
-```bash
-python coding.py
-```
+- Data Exploration
+- Data Cleaning
+- Exploratory Data Analysis
+- Statistical Analysis
+- Data Visualization
+- Pattern Identification
+- Outlier Detection
+- Correlation Analysis
+- Data Interpretation
+- Communicating Data Insights
+- AI-assisted development and learning
 
-To run the complete analysis, open `ai assistance.ipynb` in Visual Studio Code or Jupyter Notebook and execute the cells from top to bottom.
+---
 
-## Purpose
+## Repository Purpose
 
-This repository is a record of my practical learning and continuous improvement in data analysis and visualization. My goal is to write clear code, understand data quality, select appropriate visualizations, and explain insights from real datasets.
+This repository serves as a record of my **practical learning and continuous improvement** during the KLU / Calibo training program.
+
+My goal is to strengthen both my **technical skills and analytical thinking** by working with real-world datasets and learning how to transform raw data into meaningful insights.
+
+I will continue updating this repository as I learn and practice new concepts in **Data Analysis, Visualization, and AI/ML**.
