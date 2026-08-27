@@ -11,6 +11,7 @@ I practiced the complete data-analysis workflow:
 ## What I Learned
 
 - Loading CSV files and inspecting rows, columns, data types, and dataset structure.
+- Using AI assistance in Visual Studio Code to explore ideas, improve code, and support data-analysis tasks.
 - Using **NumPy** for numerical operations and data preparation.
 - Using **Pandas** to filter, group, summarize, and analyze data.
 - Finding unique values and identifying values that differ only by letter case.
@@ -19,9 +20,20 @@ I practiced the complete data-analysis workflow:
 - Interpreting visualizations and communicating observations from datasets.
 - Running notebooks and Python scripts in Visual Studio Code.
 - Saving analysis results and generated visualizations for reuse.
-- Using AI assistance in Visual Studio Code to explore ideas, improve code, and support data-analysis tasks.
 
 ## Topics Covered
+
+### AI Assistance
+
+I used AI assistance in Visual Studio Code as a learning and development partner while working with NumPy, Pandas, Matplotlib, and Seaborn. I used it to:
+
+- Understand programming and data-analysis concepts.
+- Generate, explain, and improve Python code.
+- Explore datasets and identify data-quality issues.
+- Create graphs, dashboards, and data visualizations.
+- Interpret results and document observations.
+
+I still ran, checked, and understood the code myself while using AI assistance.
 
 ### Pandas and NumPy
 
@@ -75,21 +87,10 @@ I practiced the complete data-analysis workflow:
 - `cleaned_ecommerce_dataset.csv` - Cleaned e-commerce dataset.
 - `plot_*.png` - Generated chart images.
 
-## AI Assistance
-
-I also built and used an AI-assisted data-analysis workflow in Visual Studio Code. The `ai assistance.ipynb` notebook combines AI guidance with hands-on Python practice to:
-
-- Understand Pandas, NumPy, Matplotlib, and Seaborn concepts.
-- Generate and improve data-analysis code.
-- Explore datasets and identify data-quality issues.
-- Create charts, dashboards, and visual explanations.
-- Interpret results and document observations.
-
-This helped me learn how to use AI as a development and learning assistant while still validating, running, and understanding the code myself.
-
 ## Tools and Technologies
 
 - Python
+- AI Assistance in Visual Studio Code
 - NumPy
 - Pandas
 - Matplotlib
