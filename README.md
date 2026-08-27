@@ -19,6 +19,7 @@ I practiced the complete data-analysis workflow:
 - Interpreting visualizations and communicating observations from datasets.
 - Running notebooks and Python scripts in Visual Studio Code.
 - Saving analysis results and generated visualizations for reuse.
+- Using AI assistance in Visual Studio Code to explore ideas, improve code, and support data-analysis tasks.
 
 ## Topics Covered
 
@@ -73,6 +74,18 @@ I practiced the complete data-analysis workflow:
 - `student_data.csv` - Student dataset used by the plotting script.
 - `cleaned_ecommerce_dataset.csv` - Cleaned e-commerce dataset.
 - `plot_*.png` - Generated chart images.
+
+## AI Assistance
+
+I also built and used an AI-assisted data-analysis workflow in Visual Studio Code. The `ai assistance.ipynb` notebook combines AI guidance with hands-on Python practice to:
+
+- Understand Pandas, NumPy, Matplotlib, and Seaborn concepts.
+- Generate and improve data-analysis code.
+- Explore datasets and identify data-quality issues.
+- Create charts, dashboards, and visual explanations.
+- Interpret results and document observations.
+
+This helped me learn how to use AI as a development and learning assistant while still validating, running, and understanding the code myself.
 
 ## Tools and Technologies
 
